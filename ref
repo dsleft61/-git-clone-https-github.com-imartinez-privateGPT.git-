@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Refrigerator Repair Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        .services {
+            background-color: #f2f2f2;
+            padding: 20px;
+            margin: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 10px;
+        }
+        .footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Welcome to our Refrigerator Repair Service!</h1>
+    </div>
+
+    <div class="intro">
+        <h2>About Us</h2>
+        <p>We offer the best refrigerator repair services in town. Our technicians are skilled and provide fast and reliable repair services.</p>
+    </div>
+
+    <div class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>General Refrigerator Repair</li>
+            <li>Compressor Replacement</li>
+            <li>Gas Charging</li>
+            <li>Door Seal Replacement</li>
+        </ul>
+    </div>
+
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2023 Refrigerator Repair Service. All rights reserved.</p>
+    </div>
+</body>
+</html>
